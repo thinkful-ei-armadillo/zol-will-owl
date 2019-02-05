@@ -1,16 +1,11 @@
 import React from 'react';
-
-function User(props) {
-
-    return (
-        <div className='user'>
-            
-        </div>
-    )
-}
+import Participants from './participant'
 
 
-function Participants(props) {
+
+function ParticipantList(props) {
+
+    
 
     return (
     // id
