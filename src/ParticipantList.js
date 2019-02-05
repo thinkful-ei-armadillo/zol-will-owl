@@ -1,19 +1,24 @@
 import React from 'react';
-import Participants from './participant'
+
+
+import Participant from './participant';
 
 
 
 function ParticipantList(props) {
-
-    
-
     return (
-    // id
-    // name
-    // avatar
-    // session: true or false
-    )
-
+        <div className="participantList">
+            {props.map(participant => 
+                <Participant 
+                    key={participant.id}
+                    name={participant.name}
+                    avatar={participant.avatar}
+                    inSession={participant.inSession}
+                    onStage={participant.onStage}
+                />
+            )}
+        </div>
+        )
 }
 
 
