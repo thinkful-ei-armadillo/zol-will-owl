@@ -1,6 +1,4 @@
 
-
-
 const participants = [
     {
         id: 1,
@@ -42,3 +40,5 @@ const participants = [
         onStage: true
     }
 ];
+
+export default participants

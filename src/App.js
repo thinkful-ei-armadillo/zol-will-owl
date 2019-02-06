@@ -1,9 +1,14 @@
 import React from 'react';
+import ParticipantList from './ParticipantList';
+import StageList from './StageList';
+// import Chatlist from './ChatList';
 
 function App() {
   return (
     <main className='App'>
-      {/* content goes here */}
+      <ParticipantList />
+      <StageList />
+      {/* <Chatlist /> */}
     </main>
   );
 }

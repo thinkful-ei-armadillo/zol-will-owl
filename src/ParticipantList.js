@@ -1,14 +1,12 @@
 import React from 'react';
-
-
-import Participant from './participant';
-
+import Participant from './Participant';
+import participants from './STORE';
 
 
 function ParticipantList(props) {
     return (
         <div className="participantList">
-            {props.map(participant => 
+            {participants.map(participant => 
                 <Participant 
                     key={participant.id}
                     name={participant.name}
@@ -22,4 +20,4 @@ function ParticipantList(props) {
 }
 
 
-export default Participants;
+export default ParticipantList;

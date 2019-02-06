@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function participant(props) {
+function Participant(props) {
 
     const status = props.onStage ? 'on stage' : 'in session';
 
@@ -10,11 +10,11 @@ function participant(props) {
             <img className='avatar' src={props.avatar} alt={props.name} />
             <div>
                 <span className='name'>{props.name}</span>
-                <span className='status'>{status}</span>
-                <div {props.inSession ? className = "green" : className ="gray"}></div>             
+                <div className = {props.inSession ? "green" : "gray"}></div>  
+                <span className='status'>{status}</span>           
             </div>        
         </div>
     )
 }
 
-export default participant;
+export default Participant;
