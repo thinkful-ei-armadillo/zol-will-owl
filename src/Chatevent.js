@@ -2,7 +2,7 @@ import React from 'react';
 import participants from './STORE';
 
 function ChatEvent(props){
-    const person = participants.find(participant => participant.id === props.key);
+    let person = participants.find(participant => participant.id === props.id);
     const textKey = {
         'thumbs-up': 'gave a thumbs up',
         'thumbs-down': 'gave a thumbs down',
@@ -20,16 +20,17 @@ function ChatEvent(props){
         return new Intl.DateTimeFormat("en-US", options).format(date);
       } 
    
-    const chatJSX = props.type === 'message' 
-                    ? <div className="message">
+    const chatJSX = (
+                    props.type === 'message' 
+                    ? <div>
                         <img className='avatar' src={person.avatar} alt={person.name} />
-                        <span>{person.name}</span>
-                        <span>{chatTime(props.time)}</span>
+                        <span>{person.name} {chatTime(props.time)}</span>
+                        <p className="message">{props.message}</p>
                       </div> 
                     : <div>
-                        <span>{person.name}</span>
-                        <span>{textKey[props.type]}</span>
+                        <p><span>{person.name}</span> {textKey[props.type]}</p>
                       </div>
+                      )
 
     return (
         <div className="chatEvent">

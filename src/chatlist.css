@@ -1,0 +1,13 @@
+
+
+.chatList {
+    overflow: hidden;
+}
+
+
+@media only screen and ( min-width : 600px ){
+    .chatBox {
+      width: 30%;
+      height: 100vh;
+    }
+  }

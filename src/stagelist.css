@@ -1,0 +1,22 @@
+
+.stageList {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.message {
+    padding-left: 20px;
+}
+
+.stage img {
+    width: 200px;
+}
+
+@media only screen and ( min-width: 600px ){
+  .stageList {
+    width: 70%;
+    height: 100vh;;
+  }
+}

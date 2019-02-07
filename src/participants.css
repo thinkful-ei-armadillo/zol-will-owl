@@ -1,0 +1,26 @@
+img {
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: gray;
+}
+
+.participantInfo {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+
+background: rgb(187, 187, 187);
+div.participant {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+@media ( min-width : 600px ){
+  .participantList {
+    width: 30%;
+    height: 100vh;
+  }
+}
+

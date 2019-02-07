@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages component renders chatlist 1`] = `
+<div
+  className="stage-list"
+>
+  <div
+    className="stage"
+  >
+    <div>
+      <span
+        className="name"
+      >
+        Koren Templeton
+      </span>
+    </div>
+    <img
+      alt="Koren Templeton"
+      className="avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="stage"
+  >
+    <div>
+      <span
+        className="name"
+      >
+        Ashla Attwool
+      </span>
+    </div>
+    <img
+      alt="Ashla Attwool"
+      className="avatar"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+  </div>
+</div>
+`;

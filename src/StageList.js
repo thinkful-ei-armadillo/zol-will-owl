@@ -1,13 +1,13 @@
 import React from 'react';
 import Stage from './Stage';
-import participants from './STORE';
+import './stagelist.css';
 
 
 function StageList(props){
-    const onStageParticipants = participants.filter(participant => participant.onStage);
+    const onStageParticipants = props.participants.filter(participant => participant.onStage);
 
     return (
-        <div className="stage-list">
+        <div className="stageList">
             {onStageParticipants.map(participant => 
                 <Stage 
                     key = {participant.id}

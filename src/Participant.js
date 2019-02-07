@@ -8,7 +8,7 @@ function Participant(props) {
     return (
         <div className='participant' key={props.id}>
             <img className='avatar' src={props.avatar} alt={props.name} />
-            <div>
+            <div className="participantInfo">
                 <span className='name'>{props.name}</span>
                 <div className = {props.inSession ? "green" : "gray"}></div>  
                 <span className='status'>{status}</span>           

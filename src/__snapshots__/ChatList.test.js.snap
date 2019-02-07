@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages component renders chatlist 1`] = `
+<div
+  className="chatBox"
+>
+  <div
+    className="chats"
+  >
+    <div
+      className="chatEvent"
+    >
+      <div
+        className="message"
+      >
+        <img
+          alt="Axe Kubicka"
+          className="avatar"
+          src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+        />
+        <span>
+          Axe Kubicka
+        </span>
+        <span>
+          12:50 PM
+        </span>
+      </div>
+    </div>
+    <div
+      className="chatEvent"
+    >
+      <div>
+        <span>
+          Caty Flucker
+        </span>
+        <span>
+          gave a thumbs up
+        </span>
+      </div>
+    </div>
+    <div
+      className="chatEvent"
+    >
+      <div>
+        <span>
+          Frank Runciman
+        </span>
+        <span>
+          gave a thumbs down
+        </span>
+      </div>
+    </div>
+    <div
+      className="chatEvent"
+    >
+      <div>
+        <span>
+          Koren Templeton
+        </span>
+        <span>
+          raised hand
+        </span>
+      </div>
+    </div>
+    <div
+      className="chatEvent"
+    >
+      <div>
+        <span>
+          Koren Templeton
+        </span>
+        <span>
+          clapped
+        </span>
+      </div>
+    </div>
+    <div
+      className="chatEvent"
+    >
+      <div>
+        <span>
+          Koren Templeton
+        </span>
+        <span>
+          joined
+        </span>
+      </div>
+    </div>
+    <div
+      className="chatEvent"
+    >
+      <div>
+        <span>
+          Ashla Attwool
+        </span>
+        <span>
+          left
+        </span>
+      </div>
+    </div>
+    <div
+      className="chatEvent"
+    >
+      <div>
+        <span>
+          Axe Kubicka
+        </span>
+        <span>
+          joined stage
+        </span>
+      </div>
+    </div>
+    <div
+      className="chatEvent"
+    >
+      <div>
+        <span>
+          Axe Kubicka
+        </span>
+        <span>
+          left stage
+        </span>
+      </div>
+    </div>
+  </div>
+  <form
+    id="chatForm"
+  >
+    <input
+      placeholder="Chat"
+      type="text"
+    />
+  </form>
+</div>
+`;
